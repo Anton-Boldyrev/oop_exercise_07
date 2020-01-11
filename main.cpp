@@ -67,6 +67,7 @@ void remove(editor& edit) {
 int main() {
     editor edit;
     std::string command;
+    help();
     while (true) {
         std::cin >> command;
         if (command == "help") {
